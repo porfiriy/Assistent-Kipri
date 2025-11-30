@@ -1,0 +1,32 @@
+$font-family: 'Roboto', sans-serif;
+
+
+// 🌞 Светлая тема
+@layer base {
+   :root {
+      --bg-color: #f5f6fa;
+      --text-color: #222;
+      --accent-color: #007aff;
+      --card-bg: #fff;
+      --card: #fffc;
+      --backdrop-blur: blur(12px);
+      --gradient-from: #6547fa;
+      --gradient-to: #bf5af2;
+
+      --accent: 280 85% 65%;
+      --accent-foreground: 0 0% 100%;
+      --color-card: #fffc;
+   }
+
+   [data-theme="dark"] {
+      --bg-color: #121212;
+      --text-color: #f1f1f1;
+      --accent-color: #0a84ff;
+      --card-bg: #1e1e1e;
+      --card: #1f1f28cc;
+
+      --accent: 280 85% 65%;
+      --accent-foreground: 0 0% 100%;
+      --color-card: #1f1f28cc;
+   }
+}

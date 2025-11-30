@@ -1,0 +1,7 @@
+@use './common/variables' as *;
+@use './common/global' as *;
+@use './common/fonts' as *;
+@use './components/Layout/_header' as *;
+
+@import "tailwindcss";
+
